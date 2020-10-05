@@ -1,0 +1,27 @@
+{
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "price"
+            },
+            "value": {
+              "type": "constant",
+              "value": "30"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0"
+              },
+              {
+                "type": "choice",
+                "value": "d3538f4c-ac50-4d57-8cbc-ded4a9a44186"
+              }
+            ]
+          }
+        }
+

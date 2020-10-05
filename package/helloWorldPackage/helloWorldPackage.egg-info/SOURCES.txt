@@ -1,0 +1,7 @@
+README.md
+helloWorldPackage
+setup.py
+helloWorldPackage.egg-info/PKG-INFO
+helloWorldPackage.egg-info/SOURCES.txt
+helloWorldPackage.egg-info/dependency_links.txt
+helloWorldPackage.egg-info/top_level.txt

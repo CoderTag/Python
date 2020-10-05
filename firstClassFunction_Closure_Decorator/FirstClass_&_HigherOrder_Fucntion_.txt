@@ -1,0 +1,21 @@
+First class objects in a language are handled uniformly throughout.
+They may be stored in data structures, passed as arguments, or used in control structures.
+A programming language is said to support first - class functions if it treats functions as first - class objects.
+In computer science, a programming language is said to have first - class functions if it treats functions as first - class citizens.
+This means the language supports passing functions as arguments to other functions, returning them as the values from other functions,
+and assigning them to variables or storing them in data structures.
+[1] Some programming language theorists require support for anonymous functions(function literals) as well.
+[2] In languages with first - class functions, the names of functions do not have any special status
+they are treated like ordinary variables with a function type.
+
+First - class citizen (Programming)
+a first - class citizen (also type, object, entity, or value) in a given programming language is an entity which supports all the
+operations generally available to other entities. These operations typically include being passed as an argument, returned from a
+function, modified, and assigned to a variable.
+
+Higher order functions
+A higher order function is a function that takes another function as an input, returns a function or does both.
+
+Put simply: decorators wrap a function, modifying its behavior.
+
+https: // realpython.com / primer - on - python - decorators/

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: helloWorldPackage
+Version: 0.1
+Summary: New helloworld package
+Home-page: https://github.com/javatechy/dokr
+Author: Kas
+Author-email: kas@gmail.com
+License: UNKNOWN
+Description: This is a new package developed to run hello world program
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+Q. Find 4 weigths a,b,c,d which can measure all weights from 1kg,2kg ... 40kg
+
+Hint: with 5kg and 7kg we can also measure 12kg and 2kg i.e possible 5,7,2,12
+
+5 = 5*1 + 7*0
+7 = 5*0 + 7*1
+12 = 5*1 + 7*1
+2 = 5*(-1) + 7*1
+
+so we need to multiply all weights either of these [-1,0,1] and then add.
+

@@ -1,0 +1,1989 @@
+{
+    "id": "xYblGT",
+    "title": "Alster Cloth - Order Form BEFORE",
+    "theme": {
+        "href": "https://api.typeform.com/themes/6lPNE6"
+    },
+    "workspace": {
+        "href": "https://api.typeform.com/workspaces/waRLAD"
+    },
+    "settings": {
+        "is_public": false,
+        "is_trial": true,
+        "language": "en",
+        "progress_bar": "percentage",
+        "show_progress_bar": true,
+        "show_typeform_branding": true,
+        "meta": {
+            "allow_indexing": false
+        }
+    },
+    "thankyou_screens": [
+        {
+            "ref": "e7eb36bf-b814-48a3-9dd1-e5978d4838b8",
+            "title": "*Thank you for your order,* {{field:1bbe3661-124a-4548-a73e-e8a18aab7628}}*!*",
+            "properties": {
+                "show_button": true,
+                "share_icons": true,
+                "button_mode": "reload",
+                "button_text": "again"
+            }
+        },
+        {
+            "ref": "8a7692de-5615-46d0-bb84-2502edb8e1ea",
+            "title": "*Thank you for your order,* {{field:1bbe3661-124a-4548-a73e-e8a18aab7628}}*!*",
+            "properties": {
+                "show_button": true,
+                "share_icons": true,
+                "button_mode": "reload",
+                "button_text": "again"
+            }
+        },
+        {
+            "ref": "default_tys",
+            "title": "Thanks for completing this typeform\nNow *create your own* — it's free, easy, & beautiful",
+            "properties": {
+                "show_button": true,
+                "share_icons": false,
+                "button_mode": "redirect",
+                "button_text": "Create a *typeform*",
+                "redirect_url": "https://admin.typeform.com/powered-by?utm_campaign=xYblGT&utm_source=typeform.com-14065327-Basic&utm_medium=typeform&utm_content=typeform-thankyoubutton&utm_term=EN"
+            },
+            "attachment": {
+                "type": "image",
+                "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+            }
+        }
+    ],
+    "fields": [
+        {
+            "id": "lhzGI87F80O4",
+            "title": "What *vintage* cloth are you looking for?",
+            "ref": "1bb659c7-da80-4c27-99d7-aa11b4f45d66",
+            "validations": {
+                "required": true,
+                "min_value": 2010,
+                "max_value": 2013
+            },
+            "type": "number"
+        },
+        {
+            "id": "RaUSoHaIy5FO",
+            "title": "2010 We currently don't offer this vintage. *Please check again.*",
+            "ref": "7615c6cc-a6a6-44c8-8d39-57288e998350",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "Vfds53FgOuuy",
+            "title": "2011 What *color* do you want?",
+            "ref": "95ba0c80-1c0d-493a-a6c0-6eced9c60c5f",
+            "properties": {
+                "description": "LOREM IPSUM",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "E8g2OT3ActtW",
+                        "ref": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0",
+                        "label": "Beige"
+                    },
+                    {
+                        "id": "wMdAWw8UfaYT",
+                        "ref": "d6cdf3df-b2b2-42a2-ab31-627472d01a61",
+                        "label": "Blue"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "tvCOZyUmtWrx",
+            "title": "2011 GREAT Please select your *color tone*:",
+            "ref": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "gdi6wzOw1075",
+                        "ref": "d3538f4c-ac50-4d57-8cbc-ded4a9a44186",
+                        "label": "Red Beige kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "Gm3Vab9UivJX",
+                        "ref": "3ba5b2ce-c124-4355-b077-f5478c5bda41",
+                        "label": "Salmon Beige kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "NvLuzdDgdFOu",
+            "title": "2011 BAD Please select your *color tone*:",
+            "ref": "4528f6e7-8af7-437b-8d98-0e28c7dfbc7a",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "bEIMwlnDVF43",
+                        "ref": "d3538f4c-ac50-4d57-8cbc-ded4a9a44186",
+                        "label": "Blue Azure kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "PIDjRQMG9Ei1",
+                        "ref": "3ba5b2ce-c124-4355-b077-f5478c5bda41",
+                        "label": "Blue Coastal kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "At659WwnnXdW",
+            "title": "2012 What *color* do you want?",
+            "ref": "a7835896-9643-4a27-96bb-bd96bcb7bcb4",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "QgZVsXFVAa1G",
+                        "ref": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0",
+                        "label": "Red"
+                    },
+                    {
+                        "id": "NmHyroxnEnhp",
+                        "ref": "d6cdf3df-b2b2-42a2-ab31-627472d01a61",
+                        "label": "Blue"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "ariPgkfvl5x7",
+            "title": "2012 GREAT SPECIAL SINGULAR Do you want our special *Rose Red* tones?",
+            "ref": "4ce85ebd-15e4-4374-9a3c-fdf71c053666",
+            "properties": {
+                "description": "LOREM IPSUM"
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "pKjZsRpaXO1X",
+            "title": "2012 GREAT SPECIAL SINGULAR YES We assume you wanted *Rose Red*? kW)",
+            "ref": "8bfd4f8f-8f99-44d5-beef-f98f1a1e361c",
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "uFpIuE6Tfpa6",
+            "title": "*Are you sure?* Rose Red was the only special red option. *Please try again.*",
+            "ref": "d8747bb6-3b62-4242-bbcb-7dc376416f2e",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "KytnnGgjqCMj",
+            "title": "2012 GREAT SPECIAL NO Please select your *color tone*:",
+            "ref": "1c1e048b-4cc1-46ff-bdf8-6b0e32a515be",
+            "properties": {
+                "description": "LOREM IPSUM",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "wlMQYGmVhf9N",
+                        "ref": "972ab1f6-0429-4263-9e52-e144e72e6287",
+                        "label": "Red Beige kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "THUESqIAbs5g",
+                        "ref": "06cc56b3-2495-4f5f-a908-6afe6e53c7a8",
+                        "label": "Salmon Beige kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "rRXmw5sFfeHL",
+            "title": "2013 What *color* do you want?",
+            "ref": "c946fbf4-3642-462b-bba7-cedd730388e8",
+            "properties": {
+                "description": "LOREM IPSUM",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "hzTpS1sVZLrZ",
+                        "ref": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0",
+                        "label": "Great"
+                    },
+                    {
+                        "id": "hP3ckaPAksLC",
+                        "ref": "d6cdf3df-b2b2-42a2-ab31-627472d01a61",
+                        "label": "Bad"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "aCkhBUfFF33a",
+            "title": "2013 GREAT SPECIAL PLURAL Do you want to select your special *red tones*?",
+            "ref": "cea38c35-1b4d-4882-bced-53f0f474f9cb",
+            "properties": {
+                "description": "LOREM IPSUM"
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "CujFQY4mR4kf",
+            "title": "2013 GREAT SPECIAL PLURAL YES Please select your *color tone*:",
+            "ref": "14367df2-63f6-4b0b-a5b8-ecf36f6fd700",
+            "properties": {
+                "description": "LOREM IPSUM",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "F1w4IcfaHIuW",
+                        "ref": "3cc84796-59b9-4391-b0ab-c02c9bd05d36",
+                        "label": "Rose Red kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "wvOgS9lMBUj5",
+                        "ref": "bfef2478-fd8d-4151-a88b-8ecf91d50d58",
+                        "label": "Rose Salmon kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "UwrQihvSG7Mw",
+            "title": "2013 GREAT SPECIAL PLURAL NO Please select your *color tone*:",
+            "ref": "c75181f9-1f08-40d3-88f3-72df234e4dc6",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "DCFONhM7VljH",
+                        "ref": "30de912e-27d7-4b89-bf99-c89711c8cf6f",
+                        "label": "Rose Red 2 kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "SH8anRZ34o1q",
+                        "ref": "31e69975-4ead-4ab6-95b6-396a1a7c6b7a",
+                        "label": "Rose Salmon 2 kW)",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "UlDvxaipq2IV",
+            "title": "2013 BAD We assume you wanted Blue Green. *Is that correct?*",
+            "ref": "a7d286f5-a215-45a0-aa94-02452a5216e2",
+            "properties": {
+                "description": "LOREM IPSUM"
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "esfIbSveepGq",
+            "title": "*Are you sure?* Rose Red was the only special BAD option. *Please try again.*",
+            "ref": "cb53b68e-45a8-445c-92ce-2a5efc0cd4cb",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "YBeGwFGuy9wf",
+            "title": "Do you want the *200g linen? X1*",
+            "ref": "3e22f037-a593-4b06-866b-0aa601c75bf0",
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "hiJZnZNYDEMI",
+            "title": "Do you want the *300g linen? X2*",
+            "ref": "751af491-f3bc-4d0e-8700-a4dbfa6464cc",
+            "validations": {
+                "required": true
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "H3GnUWlUkFuM",
+            "title": "Great! We are now asking your *shipping details:*",
+            "ref": "0e044901-298b-429c-a9dc-606fbdbd6111",
+            "properties": {
+                "hide_marks": false,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "CE8s89RlRC4V",
+            "title": "In the meantime, what is your *first name*?",
+            "ref": "1bbe3661-124a-4548-a73e-e8a18aab7628",
+            "validations": {
+                "required": true
+            },
+            "type": "short_text"
+        },
+        {
+            "id": "t4xJ8kYtS0qh",
+            "title": "What is your *last name*, {{field:1bbe3661-124a-4548-a73e-e8a18aab7628}}?",
+            "ref": "7480a98c-d9b0-4e61-8357-72c78f0ebbb5",
+            "validations": {
+                "required": true
+            },
+            "type": "short_text"
+        },
+        {
+            "id": "ttw7GxjJLFhS",
+            "title": "Please select your *preferred shipping*:",
+            "ref": "ab3157ab-0bc4-4ef8-8776-5d9ee627a4df",
+            "properties": {
+                "description": "LOREM IPSUM",
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "xaqofRcVgP8i",
+                        "ref": "4cb4de1c-de2f-460a-b70b-9469202b7773",
+                        "label": "Fast Y1",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "KAwUwl3TfVL5",
+                        "ref": "4867b4eb-1a1f-4787-8692-0b74af9be168",
+                        "label": "Insured Y2",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "eXhUmuy62swL",
+                        "ref": "9b50f8a4-2aab-4dfa-a80a-821918a87f48",
+                        "label": "Tracking Y3",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": true,
+                "min_selection": 1,
+                "max_selection": 3
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "Nz8ijnjK9vcf",
+            "title": "Do you have a *discount code*?",
+            "ref": "98f2128f-0a7b-4d2f-af3a-deaad609b17f",
+            "validations": {
+                "required": false
+            },
+            "type": "yes_no"
+        },
+        {
+            "id": "qro9y50qssXh",
+            "title": "Please enter your *discount code*: (D)",
+            "ref": "e8f18061-5c15-4d87-a701-e2124795a131",
+            "validations": {
+                "required": false
+            },
+            "type": "short_text"
+        },
+        {
+            "id": "qXQ9mRWS20T0",
+            "title": "D1 Great! We will apply your 20% discount later.",
+            "ref": "711ff17a-5b36-479c-8de0-95a3e359118c",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "fSEdsvwqZAY9",
+            "title": "D2 Sorry but this code is invalid.",
+            "ref": "477f902c-aab0-4210-af64-65278f7ef639",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "Oz61J163kwwS",
+            "title": "Thanks! We've calculated that your order amounts to {{var:price}}. Your order amount is {{unknownpiping}}. Please select your packaging:",
+            "ref": "02b4f037-5206-4613-9498-a42744c9b964",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "q11IEPF9w4dn",
+                        "ref": "e42630e8-d05b-436f-b4c5-e2b5d729f473",
+                        "label": "Simple Z1"
+                    },
+                    {
+                        "id": "qOLzKckY4jZ2",
+                        "ref": "9728d94c-270c-4183-80f7-cd97cb5c35dd",
+                        "label": "Secure Z2"
+                    },
+                    {
+                        "id": "otRLkJK7hA89",
+                        "ref": "280552f0-7fd9-4e5c-aa53-8a806efa4511",
+                        "label": "Box Z3"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "WoTf6E6i8FWr",
+            "title": "What's your *email*, {{field:1bbe3661-124a-4548-a73e-e8a18aab7628}}?",
+            "ref": "9c4600d3-625b-4029-b91a-786b1276204f",
+            "properties": {
+                "description": "LOREM IPSUM "
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "email"
+        },
+        {
+            "id": "FiIhvYzFxtAy",
+            "title": "Now on to your *shipping details*:",
+            "ref": "b2e09823-613c-4725-9820-a365066b7a79",
+            "properties": {
+                "description": "LOREM IPSUM ",
+                "show_button": true,
+                "button_text": "Continue",
+                "fields": [
+                    {
+                        "id": "QdLsO6tK8mfA",
+                        "title": "What's your *street address*?",
+                        "ref": "916ad633-977f-4203-bd9a-fa97b028e764",
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "short_text"
+                    },
+                    {
+                        "id": "Dp8SXD7hzEd8",
+                        "title": "What's your *postal code*?",
+                        "ref": "d8207b24-6c41-4dd1-83ab-18b1d4a0faf9",
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "short_text"
+                    },
+                    {
+                        "id": "K76H4n8gFhNd",
+                        "title": "What's your *city*?",
+                        "ref": "73ca3d3a-5dfa-41ff-861e-eb824bf9b288",
+                        "validations": {
+                            "required": true
+                        },
+                        "type": "short_text"
+                    },
+                    {
+                        "id": "sCVprTr4p8Ma",
+                        "title": "What's your *country*?",
+                        "ref": "f2c85106-223e-4f71-a4fd-56baf90945a2",
+                        "properties": {
+                            "alphabetical_order": false,
+                            "choices": [
+                                {
+                                    "label": "Austria"
+                                },
+                                {
+                                    "label": "Belgium"
+                                },
+                                {
+                                    "label": "Bulgaria"
+                                },
+                                {
+                                    "label": "Croatia"
+                                },
+                                {
+                                    "label": "Cyprus"
+                                },
+                                {
+                                    "label": "Czech Republic"
+                                },
+                                {
+                                    "label": "Denmark"
+                                },
+                                {
+                                    "label": "Estonia"
+                                },
+                                {
+                                    "label": "Finland"
+                                },
+                                {
+                                    "label": "France"
+                                },
+                                {
+                                    "label": "Germany"
+                                },
+                                {
+                                    "label": "Greece"
+                                },
+                                {
+                                    "label": "Hungary"
+                                },
+                                {
+                                    "label": "Ireland"
+                                },
+                                {
+                                    "label": "Italy"
+                                },
+                                {
+                                    "label": "Latvia"
+                                },
+                                {
+                                    "label": "Liechtenstein"
+                                },
+                                {
+                                    "label": "Lithuania"
+                                },
+                                {
+                                    "label": "Luxembourg"
+                                },
+                                {
+                                    "label": "Malta"
+                                },
+                                {
+                                    "label": "Netherlands"
+                                },
+                                {
+                                    "label": "Poland"
+                                },
+                                {
+                                    "label": "Portugal"
+                                },
+                                {
+                                    "label": "Romania"
+                                },
+                                {
+                                    "label": "Slovakia"
+                                },
+                                {
+                                    "label": "Slovenia"
+                                },
+                                {
+                                    "label": "Spain"
+                                },
+                                {
+                                    "label": "Sweden"
+                                },
+                                {
+                                    "label": "Switzerland"
+                                },
+                                {
+                                    "label": "UK"
+                                }
+                            ]
+                        },
+                        "validations": {
+                            "required": false
+                        },
+                        "type": "dropdown"
+                    },
+                    {
+                        "id": "CHDQvOMI4Ugq",
+                        "title": "...",
+                        "ref": "659277fb-3038-476a-be1c-5eece036d10a",
+                        "validations": {
+                            "required": false
+                        },
+                        "type": "legal"
+                    }
+                ]
+            },
+            "type": "group"
+        },
+        {
+            "id": "z3YN0i0qBG5I",
+            "title": "Please select your preferred *payment method*:",
+            "ref": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed",
+            "properties": {
+                "description": "LOREM IPSUM ",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "supersized": false,
+                "show_labels": true,
+                "choices": [
+                    {
+                        "id": "DGU3e7c11kIN",
+                        "ref": "be0cd86a-d07f-43cc-8390-f75c143358d9",
+                        "label": "Credit Cards",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "akqPDpgEuzgA",
+                        "ref": "d7dc8985-66e4-4eab-998c-2ebd93e3f957",
+                        "label": "PayPal",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    },
+                    {
+                        "id": "O7SxyAibIGkh",
+                        "ref": "89589326-0d81-43f2-a0b2-11d1c49b920a",
+                        "label": "Pay Later",
+                        "attachment": {
+                            "type": "image",
+                            "href": "https://images.typeform.com/images/k5GkdtirB5XE"
+                        }
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "picture_choice"
+        },
+        {
+            "id": "RjJ4LiY0mzYM",
+            "title": "*Almost done! We are now submitting* your {{field:c8c8dbbe-1f34-40a0-8a0e-29476ac31aed}} order.",
+            "ref": "421682b5-902d-4e83-a35b-03ae1729673c",
+            "properties": {
+                "hide_marks": true,
+                "button_text": "Continue"
+            },
+            "type": "statement"
+        },
+        {
+            "id": "DhEdM3pJXGTK",
+            "title": "*Almost done!* Your order amounts to {{var:price}} ({{field:ab3157ab-0bc4-4ef8-8776-5d9ee627a4df}} Shipping), including VAT. Please confirm your *order details* and enter your *credit card information*. ",
+            "ref": "744b45eb-f032-43f9-879c-bda8cf169fe4",
+            "properties": {
+                "description": "\n*Your Cloth:* Alster \n*Your Amount:*\n*Your Shipping Speed:* {{field:ab3157ab-0bc4-4ef8-8776-5d9ee627a4df}}\n\n*Your Billing & Shipping Details:*\n{{field:1bbe3661-124a-4548-a73e-e8a18aab7628}} {{field:7480a98c-d9b0-4e61-8357-72c78f0ebbb5}} ({{field:9c4600d3-625b-4029-b91a-786b1276204f}})\n{{field:916ad633-977f-4203-bd9a-fa97b028e764}}\n{{field:d8207b24-6c41-4dd1-83ab-18b1d4a0faf9}} - {{field:73ca3d3a-5dfa-41ff-861e-eb824bf9b288}}, {{field:f2c85106-223e-4f71-a4fd-56baf90945a2}}",
+                "currency": "EUR",
+                "price": {
+                    "type": "variable",
+                    "value": "price"
+                },
+                "show_button": true,
+                "button_text": "Continue"
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "payment"
+        }
+    ],
+    "logic": [
+        {
+            "type": "field",
+            "ref": "477f902c-aab0-4210-af64-65278f7ef639",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "98f2128f-0a7b-4d2f-af3a-deaad609b17f"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "c946fbf4-3642-462b-bba7-cedd730388e8",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "cea38c35-1b4d-4882-bced-53f0f474f9cb"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "c946fbf4-3642-462b-bba7-cedd730388e8"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "14367df2-63f6-4b0b-a5b8-ecf36f6fd700"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "c946fbf4-3642-462b-bba7-cedd730388e8"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "d6cdf3df-b2b2-42a2-ab31-627472d01a61"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "a7835896-9643-4a27-96bb-bd96bcb7bcb4",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "4ce85ebd-15e4-4374-9a3c-fdf71c053666"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "a7835896-9643-4a27-96bb-bd96bcb7bcb4"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "916ad633-977f-4203-bd9a-fa97b028e764",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "d8207b24-6c41-4dd1-83ab-18b1d4a0faf9"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "916ad633-977f-4203-bd9a-fa97b028e764"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "659277fb-3038-476a-be1c-5eece036d10a",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "659277fb-3038-476a-be1c-5eece036d10a"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "f2c85106-223e-4f71-a4fd-56baf90945a2",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "659277fb-3038-476a-be1c-5eece036d10a"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "f2c85106-223e-4f71-a4fd-56baf90945a2"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "73ca3d3a-5dfa-41ff-861e-eb824bf9b288",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "f2c85106-223e-4f71-a4fd-56baf90945a2"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "73ca3d3a-5dfa-41ff-861e-eb824bf9b288"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "1bbe3661-124a-4548-a73e-e8a18aab7628",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "7480a98c-d9b0-4e61-8357-72c78f0ebbb5"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1bbe3661-124a-4548-a73e-e8a18aab7628"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "4ce85ebd-15e4-4374-9a3c-fdf71c053666",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "8bfd4f8f-8f99-44d5-beef-f98f1a1e361c"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "4ce85ebd-15e4-4374-9a3c-fdf71c053666"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "1c1e048b-4cc1-46ff-bdf8-6b0e32a515be"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "4ce85ebd-15e4-4374-9a3c-fdf71c053666"
+                            },
+                            {
+                                "type": "constant",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "d8747bb6-3b62-4242-bbcb-7dc376416f2e",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "e8f18061-5c15-4d87-a701-e2124795a131",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "711ff17a-5b36-479c-8de0-95a3e359118c"
+                        }
+                    },
+                    "condition": {
+                        "op": "begins_with",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "e8f18061-5c15-4d87-a701-e2124795a131"
+                            },
+                            {
+                                "type": "constant",
+                                "value": "disc"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "477f902c-aab0-4210-af64-65278f7ef639"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_contains",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "e8f18061-5c15-4d87-a701-e2124795a131"
+                            },
+                            {
+                                "type": "constant",
+                                "value": "disc"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "95ba0c80-1c0d-493a-a6c0-6eced9c60c5f",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "95ba0c80-1c0d-493a-a6c0-6eced9c60c5f"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "722215ef-c05f-4e3e-ba61-7eeaf65b4fc0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "4528f6e7-8af7-437b-8d98-0e28c7dfbc7a"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "95ba0c80-1c0d-493a-a6c0-6eced9c60c5f"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "d6cdf3df-b2b2-42a2-ab31-627472d01a61"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "7615c6cc-a6a6-44c8-8d39-57288e998350",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "cb53b68e-45a8-445c-92ce-2a5efc0cd4cb",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "711ff17a-5b36-479c-8de0-95a3e359118c",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "02b4f037-5206-4613-9498-a42744c9b964"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "421682b5-902d-4e83-a35b-03ae1729673c",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "thankyou",
+                            "value": "8a7692de-5615-46d0-bb84-2502edb8e1ea"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "98f2128f-0a7b-4d2f-af3a-deaad609b17f",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "e8f18061-5c15-4d87-a701-e2124795a131"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "98f2128f-0a7b-4d2f-af3a-deaad609b17f"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "02b4f037-5206-4613-9498-a42744c9b964"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "98f2128f-0a7b-4d2f-af3a-deaad609b17f"
+                            },
+                            {
+                                "type": "constant",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "1bb659c7-da80-4c27-99d7-aa11b4f45d66",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "7615c6cc-a6a6-44c8-8d39-57288e998350"
+                        }
+                    },
+                    "condition": {
+                        "op": "equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                            },
+                            {
+                                "type": "constant",
+                                "value": 2010
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "95ba0c80-1c0d-493a-a6c0-6eced9c60c5f"
+                        }
+                    },
+                    "condition": {
+                        "op": "equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                            },
+                            {
+                                "type": "constant",
+                                "value": 2011
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "a7835896-9643-4a27-96bb-bd96bcb7bcb4"
+                        }
+                    },
+                    "condition": {
+                        "op": "equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                            },
+                            {
+                                "type": "constant",
+                                "value": 2012
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "c946fbf4-3642-462b-bba7-cedd730388e8"
+                        }
+                    },
+                    "condition": {
+                        "op": "equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1bb659c7-da80-4c27-99d7-aa11b4f45d66"
+                            },
+                            {
+                                "type": "constant",
+                                "value": 2013
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "cea38c35-1b4d-4882-bced-53f0f474f9cb",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "14367df2-63f6-4b0b-a5b8-ecf36f6fd700"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "cea38c35-1b4d-4882-bced-53f0f474f9cb"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "c75181f9-1f08-40d3-88f3-72df234e4dc6"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "cea38c35-1b4d-4882-bced-53f0f474f9cb"
+                            },
+                            {
+                                "type": "constant",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "a7d286f5-a215-45a0-aa94-02452a5216e2",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "0e044901-298b-429c-a9dc-606fbdbd6111"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "a7d286f5-a215-45a0-aa94-02452a5216e2"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "cb53b68e-45a8-445c-92ce-2a5efc0cd4cb"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "a7d286f5-a215-45a0-aa94-02452a5216e2"
+                            },
+                            {
+                                "type": "constant",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "1c1e048b-4cc1-46ff-bdf8-6b0e32a515be",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "0e044901-298b-429c-a9dc-606fbdbd6111"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "1c1e048b-4cc1-46ff-bdf8-6b0e32a515be"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "972ab1f6-0429-4263-9e52-e144e72e6287"
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "1c1e048b-4cc1-46ff-bdf8-6b0e32a515be"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "972ab1f6-0429-4263-9e52-e144e72e6287"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "ab3157ab-0bc4-4ef8-8776-5d9ee627a4df",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "98f2128f-0a7b-4d2f-af3a-deaad609b17f"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "ab3157ab-0bc4-4ef8-8776-5d9ee627a4df"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "4cb4de1c-de2f-460a-b70b-9469202b7773"
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "ab3157ab-0bc4-4ef8-8776-5d9ee627a4df"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "4867b4eb-1a1f-4787-8692-0b74af9be168"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "8bfd4f8f-8f99-44d5-beef-f98f1a1e361c",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "0e044901-298b-429c-a9dc-606fbdbd6111"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "8bfd4f8f-8f99-44d5-beef-f98f1a1e361c"
+                            },
+                            {
+                                "type": "constant",
+                                "value": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "d8747bb6-3b62-4242-bbcb-7dc376416f2e"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "8bfd4f8f-8f99-44d5-beef-f98f1a1e361c"
+                            },
+                            {
+                                "type": "constant",
+                                "value": false
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "c75181f9-1f08-40d3-88f3-72df234e4dc6",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "0e044901-298b-429c-a9dc-606fbdbd6111"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "c75181f9-1f08-40d3-88f3-72df234e4dc6"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "30de912e-27d7-4b89-bf99-c89711c8cf6f"
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "c75181f9-1f08-40d3-88f3-72df234e4dc6"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "31e69975-4ead-4ab6-95b6-396a1a7c6b7a"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "d8207b24-6c41-4dd1-83ab-18b1d4a0faf9",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "73ca3d3a-5dfa-41ff-861e-eb824bf9b288"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "d8207b24-6c41-4dd1-83ab-18b1d4a0faf9"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "9c4600d3-625b-4029-b91a-786b1276204f",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "b2e09823-613c-4725-9820-a365066b7a79"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "9c4600d3-625b-4029-b91a-786b1276204f"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "7480a98c-d9b0-4e61-8357-72c78f0ebbb5",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "ab3157ab-0bc4-4ef8-8776-5d9ee627a4df"
+                        }
+                    },
+                    "condition": {
+                        "op": "not_equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "7480a98c-d9b0-4e61-8357-72c78f0ebbb5"
+                            },
+                            {
+                                "type": "constant",
+                                "value": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "744b45eb-f032-43f9-879c-bda8cf169fe4"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "be0cd86a-d07f-43cc-8390-f75c143358d9"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "421682b5-902d-4e83-a35b-03ae1729673c"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "d7dc8985-66e4-4eab-998c-2ebd93e3f957"
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "c8c8dbbe-1f34-40a0-8a0e-29476ac31aed"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "89589326-0d81-43f2-a0b2-11d1c49b920a"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "4528f6e7-8af7-437b-8d98-0e28c7dfbc7a",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "3e22f037-a593-4b06-866b-0aa601c75bf0"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "4528f6e7-8af7-437b-8d98-0e28c7dfbc7a"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "d3538f4c-ac50-4d57-8cbc-ded4a9a44186"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "0e044901-298b-429c-a9dc-606fbdbd6111"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "4528f6e7-8af7-437b-8d98-0e28c7dfbc7a"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "3ba5b2ce-c124-4355-b077-f5478c5bda41"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "3e22f037-a593-4b06-866b-0aa601c75bf0"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "d3538f4c-ac50-4d57-8cbc-ded4a9a44186"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "751af491-f3bc-4d0e-8700-a4dbfa6464cc"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "3ea07a99-e0f4-4b1a-9bfc-61b0154255c0"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "3ba5b2ce-c124-4355-b077-f5478c5bda41"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "variables": {
+        "price": 0
+    },
+    "_links": {
+        "display": "https://frankhutter.typeform.com/to/xYblGT"
+    }
+}
