@@ -1,60 +1,12 @@
-word_to_guess = "mangoman"
+import random
+import words
+from hangman_asciiart import hangs
 
-hangs = [
-    '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-========='''
-]
+word_to_guess = random.choice(words.words)
+print(word_to_guess)
 
-# unique letters is the total number of trial
 wrong_guess = 7
+# unique letters is the total number of trial + allowed wrong guess limit
 trial = len(set(word_to_guess)) + wrong_guess
 
 # initialize array with dashes equal to number of letters in the word to guess
