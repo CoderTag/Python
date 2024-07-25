@@ -1,7 +1,7 @@
 
 # from T24 import mn
 import T24
-a = 10x`x`
+a = 10
 
 # globals()
 
